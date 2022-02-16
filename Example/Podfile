@@ -1,0 +1,6 @@
+use_frameworks!
+target 'RxTwilioConversationsClient_Tests' do
+  pod 'RxTwilioConversationsClient', :path => '../'
+  
+  
+end
