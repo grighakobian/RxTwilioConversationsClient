@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		7BCFB8FD6101064F11C4E19EB4637E67 /* RxTwilioConversationsClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3131587A230373BCBEC2184CFF30FD0 /* RxTwilioConversationsClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBC2BD2DA18E33CDC7C5C5DD9A79E3A2 /* Pods-RxTwilioConversationsClient_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC9857CBCCDE5FDE735ABFE0A17C4341 /* Pods-RxTwilioConversationsClient_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DCFCA0EFF852632F89712C6EA9F45F28 /* Pods-RxTwilioConversationsClient_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5F7B9B20824CBD7085C05FD6B36E57 /* Pods-RxTwilioConversationsClient_Tests-dummy.m */; };
+		DDC2E5B927BD34440060FE33 /* TwilioConversationsClient in Frameworks */ = {isa = PBXBuildFile; productRef = DDC2E5B827BD34440060FE33 /* TwilioConversationsClient */; };
 		FE05FFA8728E220FFA75D184B7A7AC15 /* RxTwilioConversationsClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 937541A0A0E2BC57C3274A1593D3D836 /* RxTwilioConversationsClient-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -29,9 +30,9 @@
 /* Begin PBXFileReference section */
 		09A0B67DB26AF2F4674EC25A9F647713 /* Pods-RxTwilioConversationsClient_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RxTwilioConversationsClient_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		1B14B0FDE2E0D10564AA6B1D3C519E62 /* RxTwilioConversationsClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxTwilioConversationsClient.release.xcconfig; sourceTree = "<group>"; };
-		269A9F51D507B0FAC4DE4965E645BC5C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		32F5AFC7322C4CD249D4D56DD873AE3B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		4966CD712EB045EC3C2E0A3AD632FC1C /* RxTwilioConversationsClient.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RxTwilioConversationsClient.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		269A9F51D507B0FAC4DE4965E645BC5C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		32F5AFC7322C4CD249D4D56DD873AE3B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4966CD712EB045EC3C2E0A3AD632FC1C /* RxTwilioConversationsClient.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RxTwilioConversationsClient.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5ADD9E12EED8F69FF6A9C7B7B203D7EB /* RxTwilioConversationsClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RxTwilioConversationsClient.modulemap; sourceTree = "<group>"; };
 		706B81C7010332B2B20A80625079D669 /* RxTwilioConversationsClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxTwilioConversationsClient.debug.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -41,7 +42,7 @@
 		91BC33C23150F2AF553987AAB542B8AE /* RxTwilioConversationsClient */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxTwilioConversationsClient; path = RxTwilioConversationsClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		937541A0A0E2BC57C3274A1593D3D836 /* RxTwilioConversationsClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RxTwilioConversationsClient-dummy.m"; sourceTree = "<group>"; };
 		9D5F7B9B20824CBD7085C05FD6B36E57 /* Pods-RxTwilioConversationsClient_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RxTwilioConversationsClient_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3131587A230373BCBEC2184CFF30FD0 /* RxTwilioConversationsClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxTwilioConversationsClient-umbrella.h"; sourceTree = "<group>"; };
 		C7FD56300BBFBB5D93F93902E879F23D /* Pods-RxTwilioConversationsClient_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RxTwilioConversationsClient_Tests.modulemap"; sourceTree = "<group>"; };
 		CC9857CBCCDE5FDE735ABFE0A17C4341 /* Pods-RxTwilioConversationsClient_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RxTwilioConversationsClient_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -58,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDC2E5B927BD34440060FE33 /* TwilioConversationsClient in Frameworks */,
 				063F0753EC896C927A3D69F210B550BF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,6 +217,9 @@
 				CF9EC39F036AA512E181AD3EBEF45527 /* PBXTargetDependency */,
 			);
 			name = "Pods-RxTwilioConversationsClient_Tests";
+			packageProductDependencies = (
+				DDC2E5B827BD34440060FE33 /* TwilioConversationsClient */,
+			);
 			productName = Pods_RxTwilioConversationsClient_Tests;
 			productReference = E7CF020517392642B0177CE10A11A65C /* Pods-RxTwilioConversationsClient_Tests */;
 			productType = "com.apple.product-type.framework";
@@ -255,6 +260,9 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			packageReferences = (
+				DDC2E5B727BD34440060FE33 /* XCRemoteSwiftPackageReference "conversations-ios" */,
+			);
 			productRefGroup = 95A218C5BE7C770A563B7F0D8F82C3D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -328,7 +336,11 @@
 				INFOPLIST_FILE = "Target Support Files/RxTwilioConversationsClient/RxTwilioConversationsClient-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/RxTwilioConversationsClient/RxTwilioConversationsClient.modulemap";
 				PRODUCT_MODULE_NAME = RxTwilioConversationsClient;
 				PRODUCT_NAME = RxTwilioConversationsClient;
@@ -420,7 +432,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-RxTwilioConversationsClient_Tests/Pods-RxTwilioConversationsClient_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RxTwilioConversationsClient_Tests/Pods-RxTwilioConversationsClient_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -453,7 +469,11 @@
 				INFOPLIST_FILE = "Target Support Files/RxTwilioConversationsClient/RxTwilioConversationsClient-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/RxTwilioConversationsClient/RxTwilioConversationsClient.modulemap";
 				PRODUCT_MODULE_NAME = RxTwilioConversationsClient;
 				PRODUCT_NAME = RxTwilioConversationsClient;
@@ -550,7 +570,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-RxTwilioConversationsClient_Tests/Pods-RxTwilioConversationsClient_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RxTwilioConversationsClient_Tests/Pods-RxTwilioConversationsClient_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -597,6 +621,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DDC2E5B727BD34440060FE33 /* XCRemoteSwiftPackageReference "conversations-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twilio/conversations-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DDC2E5B827BD34440060FE33 /* TwilioConversationsClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDC2E5B727BD34440060FE33 /* XCRemoteSwiftPackageReference "conversations-ios" */;
+			productName = TwilioConversationsClient;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
