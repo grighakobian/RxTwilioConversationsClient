@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		063F0753EC896C927A3D69F210B550BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		4B37DE6E4993F9D4014EE00BF0D5441F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8615593CE58CD009678E22D94592B /* ReplaceMe.swift */; };
 		551F6B15FD162CC259B1B4A427385E4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7BCFB8FD6101064F11C4E19EB4637E67 /* RxTwilioConversationsClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3131587A230373BCBEC2184CFF30FD0 /* RxTwilioConversationsClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBC2BD2DA18E33CDC7C5C5DD9A79E3A2 /* Pods-RxTwilioConversationsClient_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC9857CBCCDE5FDE735ABFE0A17C4341 /* Pods-RxTwilioConversationsClient_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,7 +37,6 @@
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7547866883D153067153AACF3E3C4D3B /* Pods-RxTwilioConversationsClient_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RxTwilioConversationsClient_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7ECEB62427B3E64391BD7B548450260A /* RxTwilioConversationsClient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxTwilioConversationsClient-prefix.pch"; sourceTree = "<group>"; };
-		8CD8615593CE58CD009678E22D94592B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RxTwilioConversationsClient/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		91BC33C23150F2AF553987AAB542B8AE /* RxTwilioConversationsClient */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxTwilioConversationsClient; path = RxTwilioConversationsClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		937541A0A0E2BC57C3274A1593D3D836 /* RxTwilioConversationsClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RxTwilioConversationsClient-dummy.m"; sourceTree = "<group>"; };
 		9D5F7B9B20824CBD7085C05FD6B36E57 /* Pods-RxTwilioConversationsClient_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RxTwilioConversationsClient_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -88,7 +86,7 @@
 		53CC314126C948C39218083C05ABD356 /* RxTwilioConversationsClient */ = {
 			isa = PBXGroup;
 			children = (
-				8CD8615593CE58CD009678E22D94592B /* ReplaceMe.swift */,
+				DDC2E5BA27BD35790060FE33 /* Sources */,
 				2F498E4EE220E64C0CD481617FB90A47 /* Pod */,
 				CBAED14B77EFE01AFE9290AD1D213B24 /* Support Files */,
 			);
@@ -161,6 +159,13 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDC2E5BA27BD35790060FE33 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		E52DC788809D76943DE80B1C8CBB7444 /* Pods-RxTwilioConversationsClient_Tests */ = {
@@ -295,7 +300,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B37DE6E4993F9D4014EE00BF0D5441F /* ReplaceMe.swift in Sources */,
 				FE05FFA8728E220FFA75D184B7A7AC15 /* RxTwilioConversationsClient-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
