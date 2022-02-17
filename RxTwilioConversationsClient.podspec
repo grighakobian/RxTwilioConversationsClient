@@ -24,18 +24,13 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/homanf/RxTwilioConversationsClient'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'homanf' => 'grighakobian@gmail.com' }
+  s.author           = { 'grighakobian' => 'grighakobian@gmail.com' }
   s.source           = { :git => 'https://github.com/homanf/RxTwilioConversationsClient.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'RxTwilioConversationsClient/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'RxTwilioConversationsClient' => ['RxTwilioConversationsClient/Assets/*.png']
-  # }
-
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'

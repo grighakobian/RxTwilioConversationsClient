@@ -22,7 +22,7 @@ pod 'RxTwilioConversationsClient'
 
 ## Author
 
-homanf, grighakobian@gmail.com
+Grigor Hakobyan, grighakobian@gmail.com
 
 ## License
 

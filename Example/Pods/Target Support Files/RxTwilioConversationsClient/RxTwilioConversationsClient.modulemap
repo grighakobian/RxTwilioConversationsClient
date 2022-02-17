@@ -1,0 +1,6 @@
+framework module RxTwilioConversationsClient {
+  umbrella header "RxTwilioConversationsClient-umbrella.h"
+
+  export *
+  module * { export * }
+}

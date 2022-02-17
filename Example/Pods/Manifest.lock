@@ -1,0 +1,16 @@
+PODS:
+  - RxTwilioConversationsClient (0.1.0)
+
+DEPENDENCIES:
+  - RxTwilioConversationsClient (from `../`)
+
+EXTERNAL SOURCES:
+  RxTwilioConversationsClient:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RxTwilioConversationsClient: a8de73203704a0f8fc673997b9bbe6603e9977f8
+
+PODFILE CHECKSUM: 73420cc738b3f37bdb31cec2f0aa4ccad6f6964a
+
+COCOAPODS: 1.11.2

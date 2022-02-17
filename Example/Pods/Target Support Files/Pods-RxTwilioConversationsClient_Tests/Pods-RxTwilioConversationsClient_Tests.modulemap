@@ -1,0 +1,6 @@
+framework module Pods_RxTwilioConversationsClient_Tests {
+  umbrella header "Pods-RxTwilioConversationsClient_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
