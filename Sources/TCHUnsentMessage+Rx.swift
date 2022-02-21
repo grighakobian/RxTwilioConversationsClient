@@ -19,30 +19,22 @@
 //    THE SOFTWARE.
 
 import RxSwift
-import RxCocoa
 import TwilioConversationsClient
 
-// MARK: - TwilioConversationsClient + HasDelegate
-
-extension TwilioConversationsClient: HasDelegate {
-    public typealias Delegate = TwilioConversationsClientDelegate
-}
-
-
-// MARK: - TwilioConversationsClientDelegateProxy
-
-open class TwilioConversationsClientDelegateProxy
-    : DelegateProxy<TwilioConversationsClient, TwilioConversationsClientDelegate>
-    , DelegateProxyType
-    , TwilioConversationsClientDelegate {
-    
-    //MARK: DelegateProxy
-    init(parentObject: TwilioConversationsClient) {
-        super.init(parentObject: parentObject, delegateProxy: TwilioConversationsClientDelegateProxy.self)
-    }
-
-    public static func registerKnownImplementations() {
-        self.register { TwilioConversationsClientDelegateProxy(parentObject: $0) }
+public extension Reactive where Base: UnsentMessage {
+    /// Send the previously prepared message to a conversation.
+    func send() -> Single<TCHMessage> {
+        return Single<TCHMessage>.create { (single) -> Disposable in
+            let cancellableToken = base.send { result, message in
+                if let message = message, result.isSuccessful {
+                    single(.success(message))
+                } else {
+                    single(.failure(result.error ?? RxTwilioError.unknown))
+                }
+            }
+            return Disposables.create {
+                cancellableToken.cancel()
+            }
+        }
     }
 }
-

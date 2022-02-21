@@ -18,7 +18,6 @@
 //    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //    THE SOFTWARE.
 
-
 import RxSwift
 import TwilioConversationsClient
 
@@ -379,7 +378,7 @@ public extension Reactive where Base: TCHConversation {
     /// Add specified username to this conversation.
     /// - Parameters:
     ///   - identity: The username to add to this conversation.
-    ///   - attributes: The developer-defined extensible attributes for participant or nil to use default empty                         attributes. (Supported types are NSString, NSNumber, NSArray, NSDictionary and NSNull)
+    ///   - attributes: The developer-defined extensible attributes for participant or nil to use default empty attributes. (Supported types are NSString, NSNumber, NSArray, NSDictionary and NSNull)
     func addParticipant(by identity: String, attributes: TCHJsonAttributes?) -> Completable {
         return Completable.create { (completable) -> Disposable in
             base.addParticipant(byIdentity: identity, attributes: attributes) { result in
@@ -398,7 +397,7 @@ public extension Reactive where Base: TCHConversation {
     ///   - address: The participant address to add to this conversation (phone number for sms and whatsapp participants)
     ///   - proxyAddress: Proxy address (Twilio phone number for sms and whatsapp participants).
     ///                   See conversations quickstart for more info: https://www.twilio.com/docs/conversations/quickstart
-    ///   - attributes: The developer-defined extensible attributes for participant or nil to use default empty                        attributes. (Supported types are NSString, NSNumber, NSArray, NSDictionary and NSNull)
+    ///   - attributes: The developer-defined extensible attributes for participant or nil to use default empty attributes. (Supported types are NSString, NSNumber, NSArray, NSDictionary and NSNull)
     func addParticipant(by address: String, proxyAddress: String, attributes: TCHJsonAttributes?) -> Completable {
         return Completable.create { (completable) -> Disposable in
             base.addParticipant(byAddress: address, proxyAddress: proxyAddress, attributes: attributes) { result in
