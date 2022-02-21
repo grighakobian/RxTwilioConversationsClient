@@ -18,12 +18,9 @@
 //    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //    THE SOFTWARE.
 
-
 import RxSwift
 import RxCocoa
 import TwilioConversationsClient
-
-// MARK: - TwilioConversationsClient + Rx
 
 public extension Reactive where Base: TwilioConversationsClient {
 
@@ -193,4 +190,3 @@ public extension Reactive where Base: TwilioConversationsClient {
         }
     }
 }
-
