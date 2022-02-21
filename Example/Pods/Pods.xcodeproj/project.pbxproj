@@ -15,6 +15,7 @@
 		DD092E3527C3741600113BC9 /* TCHConversationDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD092E3427C3741600113BC9 /* TCHConversationDelegateProxy.swift */; };
 		DD092E3B27C37F1E00113BC9 /* TCHConversation+DelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD092E3A27C37F1E00113BC9 /* TCHConversation+DelegateProxy.swift */; };
 		DD092E3D27C3823C00113BC9 /* RxUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD092E3C27C3823C00113BC9 /* RxUtils.swift */; };
+		DD092E3F27C382E400113BC9 /* TwilioConversationsClientDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD092E3E27C382E400113BC9 /* TwilioConversationsClientDelegateProxy.swift */; };
 		DD33D37427BE571B00DA0D60 /* TCHConversation+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD33D37327BE571B00DA0D60 /* TCHConversation+Rx.swift */; };
 		DD33D38E27BE57DB00DA0D60 /* TwilioConversationsClient in Frameworks */ = {isa = PBXBuildFile; productRef = DD33D38D27BE57DB00DA0D60 /* TwilioConversationsClient */; };
 		DD33D3AE27BE587500DA0D60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD33D3AD27BE587500DA0D60 /* AppDelegate.swift */; };
@@ -60,6 +61,7 @@
 		DD092E3427C3741600113BC9 /* TCHConversationDelegateProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCHConversationDelegateProxy.swift; sourceTree = "<group>"; };
 		DD092E3A27C37F1E00113BC9 /* TCHConversation+DelegateProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TCHConversation+DelegateProxy.swift"; sourceTree = "<group>"; };
 		DD092E3C27C3823C00113BC9 /* RxUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxUtils.swift; sourceTree = "<group>"; };
+		DD092E3E27C382E400113BC9 /* TwilioConversationsClientDelegateProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwilioConversationsClientDelegateProxy.swift; sourceTree = "<group>"; };
 		DD33D37327BE571B00DA0D60 /* TCHConversation+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TCHConversation+Rx.swift"; sourceTree = "<group>"; };
 		DD33D39527BE584200DA0D60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD33D39727BE584200DA0D60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -233,10 +235,11 @@
 		DDC2E5BA27BD35790060FE33 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				DD092E3C27C3823C00113BC9 /* RxUtils.swift */,
 				DD33D37327BE571B00DA0D60 /* TCHConversation+Rx.swift */,
 				DD092E3427C3741600113BC9 /* TCHConversationDelegateProxy.swift */,
 				DD092E3A27C37F1E00113BC9 /* TCHConversation+DelegateProxy.swift */,
-				DD092E3C27C3823C00113BC9 /* RxUtils.swift */,
+				DD092E3E27C382E400113BC9 /* TwilioConversationsClientDelegateProxy.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD092E3B27C37F1E00113BC9 /* TCHConversation+DelegateProxy.swift in Sources */,
+				DD092E3F27C382E400113BC9 /* TwilioConversationsClientDelegateProxy.swift in Sources */,
 				DD33D37427BE571B00DA0D60 /* TCHConversation+Rx.swift in Sources */,
 				DD092E3527C3741600113BC9 /* TCHConversationDelegateProxy.swift in Sources */,
 				DD092E3D27C3823C00113BC9 /* RxUtils.swift in Sources */,
