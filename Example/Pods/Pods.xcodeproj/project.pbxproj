@@ -12,6 +12,14 @@
 		7BCFB8FD6101064F11C4E19EB4637E67 /* RxTwilioConversationsClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3131587A230373BCBEC2184CFF30FD0 /* RxTwilioConversationsClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBC2BD2DA18E33CDC7C5C5DD9A79E3A2 /* Pods-RxTwilioConversationsClient_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC9857CBCCDE5FDE735ABFE0A17C4341 /* Pods-RxTwilioConversationsClient_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DCFCA0EFF852632F89712C6EA9F45F28 /* Pods-RxTwilioConversationsClient_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5F7B9B20824CBD7085C05FD6B36E57 /* Pods-RxTwilioConversationsClient_Tests-dummy.m */; };
+		DD33D37427BE571B00DA0D60 /* TCHConversation+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD33D37327BE571B00DA0D60 /* TCHConversation+Rx.swift */; };
+		DD33D38E27BE57DB00DA0D60 /* TwilioConversationsClient in Frameworks */ = {isa = PBXBuildFile; productRef = DD33D38D27BE57DB00DA0D60 /* TwilioConversationsClient */; };
+		DD33D3AE27BE587500DA0D60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD33D3AD27BE587500DA0D60 /* AppDelegate.swift */; };
+		DD33D3B027BE587500DA0D60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD33D3AF27BE587500DA0D60 /* SceneDelegate.swift */; };
+		DD33D3B227BE587500DA0D60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD33D3B127BE587500DA0D60 /* ViewController.swift */; };
+		DD33D3B527BE587500DA0D60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD33D3B327BE587500DA0D60 /* Main.storyboard */; };
+		DD33D3B727BE587600DA0D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD33D3B627BE587600DA0D60 /* Assets.xcassets */; };
+		DD33D3BA27BE587600DA0D60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD33D3B827BE587600DA0D60 /* LaunchScreen.storyboard */; };
 		DDC2E5B927BD34440060FE33 /* TwilioConversationsClient in Frameworks */ = {isa = PBXBuildFile; productRef = DDC2E5B827BD34440060FE33 /* TwilioConversationsClient */; };
 		FE05FFA8728E220FFA75D184B7A7AC15 /* RxTwilioConversationsClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 937541A0A0E2BC57C3274A1593D3D836 /* RxTwilioConversationsClient-dummy.m */; };
 /* End PBXBuildFile section */
@@ -46,8 +54,24 @@
 		CC9857CBCCDE5FDE735ABFE0A17C4341 /* Pods-RxTwilioConversationsClient_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RxTwilioConversationsClient_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D138269CAC989DC9F2351CC09A48C0F1 /* RxTwilioConversationsClient-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RxTwilioConversationsClient-Info.plist"; sourceTree = "<group>"; };
 		D29560D7AC8F2105794A387D9AEC8EC7 /* Pods-RxTwilioConversationsClient_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RxTwilioConversationsClient_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD33D37327BE571B00DA0D60 /* TCHConversation+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TCHConversation+Rx.swift"; sourceTree = "<group>"; };
+		DD33D39527BE584200DA0D60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD33D39727BE584200DA0D60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DD33D39927BE584200DA0D60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD33D39C27BE584200DA0D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD33D39E27BE584300DA0D60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD33D3A127BE584300DA0D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD33D3A327BE584300DA0D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD33D3AB27BE587500DA0D60 /* RxTwilioConversationsClient-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxTwilioConversationsClient-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD33D3AD27BE587500DA0D60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD33D3AF27BE587500DA0D60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DD33D3B127BE587500DA0D60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD33D3B427BE587500DA0D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD33D3B627BE587600DA0D60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD33D3B927BE587600DA0D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD33D3BB27BE587600DA0D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7746C358DA1318DE92611DDBF76C13E /* Pods-RxTwilioConversationsClient_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RxTwilioConversationsClient_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E7CF020517392642B0177CE10A11A65C /* Pods-RxTwilioConversationsClient_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RxTwilioConversationsClient_Tests"; path = Pods_RxTwilioConversationsClient_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7CF020517392642B0177CE10A11A65C /* Pods_RxTwilioConversationsClient_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxTwilioConversationsClient_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2FD4625439700D22BBA25EDDC6D7658 /* Pods-RxTwilioConversationsClient_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RxTwilioConversationsClient_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F5A1090CAE582CAA19E90BE9045F2543 /* Pods-RxTwilioConversationsClient_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RxTwilioConversationsClient_Tests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,7 +90,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD33D38E27BE57DB00DA0D60 /* TwilioConversationsClient in Frameworks */,
 				551F6B15FD162CC259B1B4A427385E4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD33D3A827BE587500DA0D60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,8 +153,9 @@
 		95A218C5BE7C770A563B7F0D8F82C3D8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E7CF020517392642B0177CE10A11A65C /* Pods-RxTwilioConversationsClient_Tests */,
+				E7CF020517392642B0177CE10A11A65C /* Pods_RxTwilioConversationsClient_Tests.framework */,
 				91BC33C23150F2AF553987AAB542B8AE /* RxTwilioConversationsClient */,
+				DD33D3AB27BE587500DA0D60 /* RxTwilioConversationsClient-Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,6 +180,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				5DDBEBEDF44E244EEE116FD7764993B5 /* Development Pods */,
+				DD33D39427BE584200DA0D60 /* RxTwilioConversationsClient-Example */,
+				DD33D3AC27BE587500DA0D60 /* RxTwilioConversationsClient-Example */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				95A218C5BE7C770A563B7F0D8F82C3D8 /* Products */,
 				7F525D3BBE7735852EC32562267B1C16 /* Targets Support Files */,
@@ -161,9 +196,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DD33D39427BE584200DA0D60 /* RxTwilioConversationsClient-Example */ = {
+			isa = PBXGroup;
+			children = (
+				DD33D39527BE584200DA0D60 /* AppDelegate.swift */,
+				DD33D39727BE584200DA0D60 /* SceneDelegate.swift */,
+				DD33D39927BE584200DA0D60 /* ViewController.swift */,
+				DD33D39B27BE584200DA0D60 /* Main.storyboard */,
+				DD33D39E27BE584300DA0D60 /* Assets.xcassets */,
+				DD33D3A027BE584300DA0D60 /* LaunchScreen.storyboard */,
+				DD33D3A327BE584300DA0D60 /* Info.plist */,
+			);
+			path = "RxTwilioConversationsClient-Example";
+			sourceTree = "<group>";
+		};
+		DD33D3AC27BE587500DA0D60 /* RxTwilioConversationsClient-Example */ = {
+			isa = PBXGroup;
+			children = (
+				DD33D3AD27BE587500DA0D60 /* AppDelegate.swift */,
+				DD33D3AF27BE587500DA0D60 /* SceneDelegate.swift */,
+				DD33D3B127BE587500DA0D60 /* ViewController.swift */,
+				DD33D3B327BE587500DA0D60 /* Main.storyboard */,
+				DD33D3B627BE587600DA0D60 /* Assets.xcassets */,
+				DD33D3B827BE587600DA0D60 /* LaunchScreen.storyboard */,
+				DD33D3BB27BE587600DA0D60 /* Info.plist */,
+			);
+			path = "RxTwilioConversationsClient-Example";
+			sourceTree = "<group>";
+		};
 		DDC2E5BA27BD35790060FE33 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				DD33D37327BE571B00DA0D60 /* TCHConversation+Rx.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -226,7 +290,7 @@
 				DDC2E5B827BD34440060FE33 /* TwilioConversationsClient */,
 			);
 			productName = Pods_RxTwilioConversationsClient_Tests;
-			productReference = E7CF020517392642B0177CE10A11A65C /* Pods-RxTwilioConversationsClient_Tests */;
+			productReference = E7CF020517392642B0177CE10A11A65C /* Pods_RxTwilioConversationsClient_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2DD14D1C6E00B36DF38D311C844879D4 /* RxTwilioConversationsClient */ = {
@@ -243,9 +307,29 @@
 			dependencies = (
 			);
 			name = RxTwilioConversationsClient;
+			packageProductDependencies = (
+				DD33D38D27BE57DB00DA0D60 /* TwilioConversationsClient */,
+			);
 			productName = RxTwilioConversationsClient;
 			productReference = 91BC33C23150F2AF553987AAB542B8AE /* RxTwilioConversationsClient */;
 			productType = "com.apple.product-type.framework";
+		};
+		DD33D3AA27BE587500DA0D60 /* RxTwilioConversationsClient-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD33D3BC27BE587600DA0D60 /* Build configuration list for PBXNativeTarget "RxTwilioConversationsClient-Example" */;
+			buildPhases = (
+				DD33D3A727BE587500DA0D60 /* Sources */,
+				DD33D3A827BE587500DA0D60 /* Frameworks */,
+				DD33D3A927BE587500DA0D60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RxTwilioConversationsClient-Example";
+			productName = "RxTwilioConversationsClient-Example";
+			productReference = DD33D3AB27BE587500DA0D60 /* RxTwilioConversationsClient-Example.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -253,8 +337,16 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
+				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2D2191CF70AD322E782939FD2DB52D2F = {
+						LastSwiftMigration = 1310;
+					};
+					DD33D3AA27BE587500DA0D60 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -274,6 +366,7 @@
 			targets = (
 				2D2191CF70AD322E782939FD2DB52D2F /* Pods-RxTwilioConversationsClient_Tests */,
 				2DD14D1C6E00B36DF38D311C844879D4 /* RxTwilioConversationsClient */,
+				DD33D3AA27BE587500DA0D60 /* RxTwilioConversationsClient-Example */,
 			);
 		};
 /* End PBXProject section */
@@ -283,6 +376,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD33D3A927BE587500DA0D60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD33D3BA27BE587600DA0D60 /* LaunchScreen.storyboard in Resources */,
+				DD33D3B727BE587600DA0D60 /* Assets.xcassets in Resources */,
+				DD33D3B527BE587500DA0D60 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +411,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD33D37427BE571B00DA0D60 /* TCHConversation+Rx.swift in Sources */,
 				DCFCA0EFF852632F89712C6EA9F45F28 /* Pods-RxTwilioConversationsClient_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD33D3A727BE587500DA0D60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD33D3B227BE587500DA0D60 /* ViewController.swift in Sources */,
+				DD33D3AE27BE587500DA0D60 /* AppDelegate.swift in Sources */,
+				DD33D3B027BE587500DA0D60 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +436,41 @@
 			targetProxy = 809D1198371A940C5A30117DEFC0B508 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD33D39B27BE584200DA0D60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD33D39C27BE584200DA0D60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD33D3A027BE584300DA0D60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD33D3A127BE584300DA0D60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DD33D3B327BE587500DA0D60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD33D3B427BE587500DA0D60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD33D3B827BE587600DA0D60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD33D3B927BE587600DA0D60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2F04222B9751E4258525CB2A1EC18270 /* Debug */ = {
@@ -425,6 +574,7 @@
 			baseConfigurationReference = 7547866883D153067153AACF3E3C4D3B /* Pods-RxTwilioConversationsClient_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -450,6 +600,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -563,6 +714,7 @@
 			baseConfigurationReference = D29560D7AC8F2105794A387D9AEC8EC7 /* Pods-RxTwilioConversationsClient_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -588,11 +740,80 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		DD33D3BD27BE587600DA0D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZL85VTVZDZ;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RxTwilioConversationsClient-Example/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grighakobian.RxTwilioConversationsClient-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD33D3BE27BE587600DA0D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZL85VTVZDZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RxTwilioConversationsClient-Example/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grighakobian.RxTwilioConversationsClient-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -611,6 +832,15 @@
 			buildConfigurations = (
 				2F04222B9751E4258525CB2A1EC18270 /* Debug */,
 				711453E93F7494FC6C333031A7F1AE48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD33D3BC27BE587600DA0D60 /* Build configuration list for PBXNativeTarget "RxTwilioConversationsClient-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD33D3BD27BE587600DA0D60 /* Debug */,
+				DD33D3BE27BE587600DA0D60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -638,6 +868,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		DD33D38D27BE57DB00DA0D60 /* TwilioConversationsClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDC2E5B727BD34440060FE33 /* XCRemoteSwiftPackageReference "conversations-ios" */;
+			productName = TwilioConversationsClient;
+		};
 		DDC2E5B827BD34440060FE33 /* TwilioConversationsClient */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = DDC2E5B727BD34440060FE33 /* XCRemoteSwiftPackageReference "conversations-ios" */;
