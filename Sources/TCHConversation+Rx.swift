@@ -22,10 +22,6 @@
 import RxSwift
 import TwilioConversationsClient
 
-public enum RxTwilioError: Error {
-    case unknown
-}
-
 public extension Reactive where Base: TCHConversation {
     
     /// Set this conversation's attributes.
